@@ -1,0 +1,416 @@
+@import"templatecolours.css";
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+/*footer>p{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}*/
+
+/*html, body{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: centre;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family: 'poppins', sans-serif;
+}*/
+
+header{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 3px;
+    box-shadow: 0 5px 10px rgba(140, 48, 145, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+/*
+header.logo{
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(32, 4, 36);
+    user-select: none;
+}
+/* NAVIGATION BAR CSS */
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li {
+    float: left;
+}
+nav>ul>li a{
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 10px 60px;
+    text-decoration: none;
+}
+li a:hover{
+    color: #363636;
+}
+body{
+    background-color: purple;
+}
+header{
+    background-color: white;
+}
+main{
+    background-color: white;
+}
+section{
+    background-color: white;
+}
+aside{
+    background-color: white;
+}
+article{
+    background-color: white;
+}
+/* IMAGE SIZING */
+/*img{
+   width: 300px;
+
+}
+
+/*#Africabest
+{
+    max-width: 960px;
+}
+#kilimanjaro{
+    max-width: 960px;
+}
+#kruger
+{
+    max-width: 960px;
+}
+#LionsHead
+{
+    max-width: 960px; 
+}
+#MaasaiMara
+{
+    max-width: 960px;
+}
+#Malawi
+{
+    max-width: 960px;
+}
+#Okanvango
+{
+    max-width: 960px; 
+}
+#Sixpyramids
+{
+    max-width: 960px;
+}
+#Tourist
+{
+    max-width: 300px;
+}
+#Victoria
+{
+    max-width: 960px;
+}
+#zanzibar
+{
+    max-width: 960px;
+}
+#mypicture
+{
+    max-width: 200px;
+    float:left;
+    padding-right: 10px; 
+}
+
+ /* FIXING THE FONT SIZE*/
+/*h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+}
+a{
+    font-size: 13px;
+}  
+/*#div1{
+    background-color: blueviolet;
+    float: right;
+    height: 400px;
+}
+#div2{
+    background-color: palevioletred;
+    float: left;
+    height: 400px;
+}
+#div3{
+    background-color: papayawhip;
+    
+    margin: 0 auto;
+    height: 400px;
+}
+/*#div4{
+    background-color: peachpuff;
+    width: 33.33%;
+    float: right;
+    height: 400px;
+}
+#div5{
+    background-color: peru;
+    width: 33.33%;
+    float: left;
+    height: 400px;
+}
+#div6{
+    background-color: pink;
+    width: 33.33%;
+    float: 0 auto;
+    height: 400px;
+}
+#div7{
+    background-color: plum;
+    width: 33.33%;
+    float: right;
+    height: 400px;
+}
+#div8{
+    background-color: purple;
+    width: 33.33%;
+    float: left;
+    height: 400px;
+}
+#div9{
+    background-color: blueviolet;
+    width: 33.33%;
+    float: 0 auto; 
+    height: 400px;
+}*/
+
+/*.container{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    background-color: purple;
+}
+#cont1{
+    background-color: palevioletred;
+}
+#cont2{
+    background-color: peru;
+}
+#cont3{
+    background-color: plum;
+}
+#cont4{
+background-color: pink;
+}
+#cont5{
+    background-color: palevioletred;
+}
+#cont6{
+    background-color: palegoldenrod;
+}
+#cont7{
+    background-color: paleturquoise;
+}
+#cont8{
+    background-color: peachpuff;
+}
+#cont9{
+    background-color: papayawhip;
+}*/
+section{
+    background-color: pink;
+}
+aside{
+    background-color: plum;
+}
+article{
+    background-color: palevioletred;
+}
+h1,h2,h3,h4{
+    color: purple;
+}
+/* TEXT STYLING */
+h1{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 300;
+}
+p,h2,h3,h4,a{
+    font-family:'Roboto' sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+h3,h4,h5{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+}
+
+/* cookies setting */
+
+{
+    padding:0;
+    margin: 0;
+}
+body{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.container2{
+    width: 1600px;
+    margin: auto;
+}
+.subcontainer{
+    width:85%;
+    margin: auto;
+}
+#cookies{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: black;
+    background-color: white;
+    z-index: 1;
+    
+}
+.cookies{
+    min-height: 70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cookies a{
+    color: pink;
+    font-weight: 500;
+    text-decoration: none;
+}
+#cookies-btn{
+    border-radius: 5px;
+    padding: 8px 12px 8px 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 1600px){
+    .container{
+        width: 100%;
+
+    }
+} @madia (max-width: 1024px) {
+    .cookies{
+        padding: 10px;
+    }
+}  
+footer{
+    
+    background: plum;
+    height: auto;
+    width: 100%;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: purple;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem 0 3rem 0;
+}
+.socials a{
+    text-decoration: none;
+    color: purple;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover{
+    color: plum;
+
+}
+.footer-bottom{
+    background: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
